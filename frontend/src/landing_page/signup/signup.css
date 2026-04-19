@@ -1,0 +1,76 @@
+/* Full page center */
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Card */
+.signup-box {
+  width: 350px;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Logo */
+.signup-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+.signup-box h2 {
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+/* Inputs */
+.signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Input focus */
+.signup-box input:focus {
+  outline: none;
+  border-color: #387ed1;
+}
+
+/* Button */
+.signup-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #387ed1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Button hover */
+.signup-box button:hover {
+  background-color: #2f6fc0;
+}
+
+/* Text */
+.signup-box p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Link */
+.signup-box a {
+  color: #387ed1;
+  text-decoration: none;
+}
